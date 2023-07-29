@@ -1,0 +1,344 @@
+header.ust{
+    background: url("pic.webp");
+    position: relative;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+}
+header h1{
+    position: relative;
+    margin-left: 30px;
+    top: 50px;
+    color: black;
+    font-size: 18px;
+    font-weight: 100;
+}
+header strong{
+    font-weight: 700;
+}
+header a{
+    text-decoration: none;
+    color: black;
+    font-weight: 900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header ul{
+    list-style: none;
+    position: relative;
+    float: right;
+    right: 20px;
+    top: 0;
+}
+header ul li{
+    display: block;
+    padding: 30px;
+    float: left;
+}
+
+header ul li a{
+    font-size: 15px;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    color: black;
+    transition: .2s;
+}
+
+header ul li a:hover{
+    color: white;
+}
+header #banner{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 40%;
+    text-align: center;
+}
+
+header #banner h2{
+    text-transform: uppercase;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+}
+
+header #banner p{
+    text-transform: uppercase;
+    font-size: 22px;
+    line-height: 40px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+}
+
+#banner a{
+    margin: 10px 0px;
+    padding: 25px 35px;
+    background: #f32853;
+    text-transform: uppercase;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+section.bolum2{
+    width: 1000px;
+    margin: 0 auto;
+    padding: 15px 0;
+}
+
+.kapsayici{
+    width: 1000px;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+
+.sol{
+    float: left;
+    width: 450px;
+    margin: 0 auto;  
+}
+.sol h1{
+    text-transform: uppercase;
+    font-size: 40px;
+    font-family: 'Raleway', sans-serif;
+    color: rgb(50, 48, 48);
+    letter-spacing: 2px;
+    line-height: 50px;
+}
+
+.sol p{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    color: rgb(165, 158, 158);
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    line-height: 35px;
+}
+
+.sağ{
+    float: right;
+    width: 500px;
+    margin: 20px;
+}
+
+.sağ article{
+    font-size: 16px;
+    letter-spacing: 2px;
+    color: rgb(81, 80, 80);
+    line-height: 30px;
+}
+.clear{
+    clear: both;
+}
+#bolum3 {
+    width: 100%;
+    margin: 0 auto;
+    padding: 50px 0;
+    background: #f6f6f6;
+    text-align: center;
+    padding-bottom: 80px;
+}
+#bolum3 h1 {
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+    color: #484848;
+}
+#bolum3 p {
+    margin: 40px 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    color: #111111;
+    text-align: center;
+}
+#bolum3 .resim {
+    width: 500px;
+    float: left;
+    background: #fff;
+    margin: 50px 20px;
+    border: 1px solid #CCCCCC;
+    box-shadow: 1px 1px 3px #ccc;
+}
+#bolum3 img {
+    width: 500px;
+    margin: 0;
+}
+#bolum3 .kapsayici {
+    width: 1100px;
+    margin: 0 auto;
+}
+#bolum3 .temiz{
+    clear: both;
+}
+#bolum3 ul{
+    list-style: none;
+}
+#bolum3 ul li{
+    display: inline-block;
+    padding: auto 0px;
+}
+#bolum3 ul li a{
+    display: block;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    background-color: #f32853;
+    padding: 20px 40px;
+    letter-spacing: 2px;
+    font-family: 'Raleway', sans-serif;
+}
+#bolum3 ul li:nth-child(2) a{
+    background: #111111;
+
+}
+#bolum4{
+    width: 100%;
+    padding-top: 50px;
+
+}
+
+#bolum4 h1{
+    margin-left: 50px;
+    font-size: 30px;
+    color: #333232;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700px;
+    margin-bottom: 30px;
+}
+
+#bolum4 h1+p{
+    margin-left: 50px;
+    margin-bottom: 50px;
+    color: #484848;
+    font-size: 18px;
+}
+#bolum4 .bolumler{
+    width: 460px;
+    float: left;
+    margin-bottom: 50px;
+    margin-right: 20px;
+}
+
+#bolum4 .bolumler .foto{
+    float: right;
+    margin: 20px;
+    width: 130px;
+}
+#bolum4 .bolumler .foto img{
+    border-radius: 100%;
+    border: 5px solid gray;
+    width: 130px; 
+}
+
+#bolum4 .bolumler .yazi{
+    width: 300px;
+    padding: 10px;
+    text-align: right;
+}
+
+#bolum4 .bolumler .yazi h3{
+    text-align: right;
+    color: #484848;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#bolum4 .bolumler .yazi h3+p{
+    color: rgb(162, 156, 156);
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 10px;
+}
+#bolum4 .bolumler1{
+    width: 460px;
+    float: left;
+    margin-bottom: 50px;
+    margin-right: 20px;
+}
+#bolum4 .bolumler1 .foto{
+    float: left;
+    margin: 20px;
+    width: 130px;
+}
+#bolum4 .bolumler1 .foto img{
+    border-radius: 100%;
+    border: 5px solid gray;
+    width: 130px; 
+}
+
+#bolum4 .bolumler1 .yazi{
+    width: 450px;
+    padding: 10px;
+    text-align: left;
+}
+
+#bolum4 .bolumler1 .yazi h3{
+    text-align: left;
+    color: #484848;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#bolum4 .bolumler1 .yazi h3+p{
+    color: rgb(162, 156, 156);
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 10px;
+}
+#bolum4 .bolumler1 .yazi p+p{
+    text-align: float;
+    font-size: 17px;
+    line-height: 25px;
+    color: #474747;
+}
+#bolum4 .bolumler .yazi p+p{
+    text-align: float;
+    font-size: 17px;
+    line-height: 25px;
+    color: #474747;
+}
+.temiz{
+    clear: both;
+}
+
+#bolum5 {
+    background: url("pic.webp");
+    position: relative;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 350px;
+    margin: 0;
+}
+
+#bolum5 .son{
+    width: 100%;
+    top: 25%;
+    position: absolute;
+    text-align: center;
+}
+
+#bolum5 .son h1{
+    text-align: center;
+    color: whitesmoke; 
+    font-size: 35px;
+    
+} 
+#bolum5 .son h3{
+    color: rgb(131, 126, 126);
+}
+
+#bolum5 .son a{
+    background-color: #f32853;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 20px 40px;
+    display: inline-block;
+    margin-top: 20px;
+}
