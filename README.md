@@ -1,2 +1,2 @@
 # site
-My site creation repository on GitHub
+My first site creation repository on GitHub
